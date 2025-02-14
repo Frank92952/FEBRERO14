@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { FaMusic, FaGift, FaHeart, FaQuoteLeft, FaFeatherAlt } from "react-icons/fa";
+import { FaMusic, FaGift, FaHeart, FaQuoteLeft} from "react-icons/fa";
 import MusicPlayer from "./MusicPlayer";
 import Gifts from "./Gifts";
 import Phrases from "./Phrases";
