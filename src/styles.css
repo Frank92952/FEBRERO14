@@ -1,0 +1,116 @@
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+  }
+  
+  .valentine-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #ffebee;
+  }
+  
+  .valentine-title {
+    font-size: 2.5rem;
+    color: #d32f2f;
+    margin-bottom: 2rem;
+  }
+  
+  .button-container {
+    position: relative;
+  }
+  
+  .valentine-button {
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+    border: none;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .yes-button {
+    background-color: #d32f2f;
+    color: white;
+  }
+  
+  .yes-button:hover {
+    background-color: #b71c1c;
+  }
+  
+  .no-button {
+    background-color: #f44336;
+    color: white;
+  }
+  
+  .no-button:hover {
+    background-color: #e53935;
+  }
+  
+  .main-screen {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #ffebee;
+  }
+  
+  .main-title {
+    font-size: 2.5rem;
+    color: #d32f2f;
+    margin-bottom: 2rem;
+  }
+  
+  .options-container {
+    display: flex;
+    gap: 1rem;
+  }
+  
+  .option-button {
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+    border: none;
+    border-radius: 0.5rem;
+    background-color: #d32f2f;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .option-button:hover {
+    background-color: #b71c1c;
+  }
+  
+  .music-player, .gifts, .phrases, .poems {
+    margin-top: 2rem;
+    text-align: center;
+  }
+  
+  .music-player h2, .gifts h2, .phrases h2, .poems h2 {
+    font-size: 2rem;
+    color: #d32f2f;
+  }
+  
+  .music-player audio {
+    margin-top: 1rem;
+  }
+  
+  .gifts ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .gifts li {
+    font-size: 1.25rem;
+    margin: 0.5rem 0;
+  }
+  
+  .phrases p, .poems p {
+    font-size: 1.25rem;
+    margin: 0.5rem 0;
+  }

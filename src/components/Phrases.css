@@ -1,0 +1,66 @@
+ 
+ /* Fondo general con degradado */
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: linear-gradient(to right, #ff758c, #ff7eb3);
+    padding: 20px;
+  }
+  
+  /* Título */
+  h2 {
+    color: white;
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+  }
+
+ /* Contenedor de frases */
+ .phrases-container {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 90%;
+    max-width: 500px;
+  }
+  
+  /* Tarjetas de frases */
+  .phrase-card {
+    background: white;
+    padding: 15px;
+    border-radius: 15px;
+    box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  /* Efecto al pasar el mouse */
+  .phrase-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 4px 6px 15px rgba(0, 0, 0, 0.3);
+  }
+  
+  /* Texto de las frases */
+  .phrase-card p {
+    color: #444;
+    font-size: 1.1rem;
+    font-weight: 500;
+    line-height:1.5;
+  }
+
+  /* Contenedor de frases */
+.phrases-container {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 90%;
+    max-width: 500px;
+    max-height: 400px; /* Limita la altura */
+    overflow-y: auto; /* Agrega desplazamiento si excede */
+    padding-right: 10px; /* Evita que el scroll tape el contenido */
+  }
+  
