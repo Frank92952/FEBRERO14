@@ -81,7 +81,8 @@ const ValentineQuestion = () => {
     <div className="valentine-container">
       {!answered ? (
         <>
-          <h1 className="valentine-title">¿Quieres pasar el 14 de febrero conmigo?</h1>
+          <h1 className="valentine-title">Ruby, ¿te acuerdas que te dije que yo sé lo que más te gusta?</h1>
+          <h1 className="valentine-title">Dime, ¿soy yo, sí o no?</h1>
           <div 
             ref={buttonContainerRef}
             className="button-container"

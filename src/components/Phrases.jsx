@@ -3,11 +3,11 @@ import "./Phrases.css";
 
 const Phrases = () => {
   const phrases = [
-    "Eres mi razón de ser, mi luz en la oscuridad. Cada momento a tu lado es un regalo del universo.",
-    "En tus ojos encuentro el cielo, en tu sonrisa, mi consuelo. Eres mi todo.",
-    "El amor no es solo mirarse el uno al otro, es mirar juntos en la misma dirección.",
-    "El amor verdadero no se encuentra, se construye con cada mirada, cada gesto y cada promesa cumplida.",
-    "Eres la respuesta a todas las preguntas que mi alma nunca supo formular.",
+    "Niña, me alegra mucho haberte conocido, contigo las charlas se sienten diferentes.",
+    "Que tengas un día lindo, lleno de sonrisas y momentos bonitos.",
+    "Cada vez que hablamos descubro cosas nuevas de ti, y eso me encanta.",
+    "Ojalá tu día sea tan especial como tú.",
+    "Niña, sé que eres la mejor y sé que vas a poder con todo… y ya deja de tomar solo Power 😅.",
   ];
 
   return (

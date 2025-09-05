@@ -40,15 +40,13 @@ const MainScreen = () => {
         />
       ))}
 
-      <h1 className="main-title">💖 ¡Feliz 14 de Febrero! 💖</h1>
+      <h1 className="main-title">💖 ¡Sabía que me ibas a elegir a mí! 💖</h1>
 
       <div className="options-container">
         <button onClick={() => setSelectedOption("music")} className="option-button">
           <FaMusic className="icon" /> Música
         </button>
-        <button onClick={() => setSelectedOption("gifts")} className="option-button">
-          <FaGift className="icon" /> Regalos
-        </button>
+
         <button onClick={() => setSelectedOption("phrases")} className="option-button">
           <FaQuoteLeft className="icon" /> Frases
         </button>
