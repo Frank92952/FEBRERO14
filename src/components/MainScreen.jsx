@@ -1,9 +1,7 @@
 import React, { useState, useEffect } from "react";
-import { FaMusic, FaHeart, FaQuoteLeft} from "react-icons/fa";
+import { FaMusic, FaHeart, FaQuoteLeft } from "react-icons/fa";
 import MusicPlayer from "./MusicPlayer";
-import Gifts from "./Gifts";
 import Phrases from "./Phrases";
-import Poems from "./Poems";
 import "./MainScreen.css"; // Asegúrate de importar los estilos
 
 const MainScreen = () => {
@@ -50,14 +48,11 @@ const MainScreen = () => {
         <button onClick={() => setSelectedOption("phrases")} className="option-button">
           <FaQuoteLeft className="icon" /> Frases
         </button>
- 
       </div>
 
       {/* Mostrar contenido según la opción seleccionada */}
       {selectedOption === "music" && <MusicPlayer />}
-      {selectedOption === "gifts" && <Gifts />}
       {selectedOption === "phrases" && <Phrases />}
-      {selectedOption === "poems" && <Poems />}
     </div>
   );
 };
