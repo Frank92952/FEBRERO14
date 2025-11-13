@@ -7,7 +7,7 @@ const Phrases = () => {
     "Que tengas un día lindo, lleno de sonrisas y momentos bonitos.",
     "Cada vez que hablamos descubro cosas nuevas de ti, y eso me encanta.",
     "Ojalá tu día sea tan especial como tú.",
-    "Niña, sé que eres la mejor y sé que vas a poder con todo… y ya deja de tomar solo Power 😅.",
+    "Less, sé que eres la mejor y sé que vas a poder con todo… .",
   ];
 
   return (
