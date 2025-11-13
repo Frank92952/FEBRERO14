@@ -3,11 +3,11 @@ import "./Phrases.css";
 
 const Phrases = () => {
   const phrases = [
-    "Niña, me alegra mucho haberte conocido, contigo las charlas se sienten diferentes.",
-    "Que tengas un día lindo, lleno de sonrisas y momentos bonitos.",
-    "Cada vez que hablamos descubro cosas nuevas de ti, y eso me encanta.",
-    "Ojalá tu día sea tan especial como tú.",
-    "Less, sé que eres la mejor y sé que vas a poder con todo… .",
+    "🏀 Niña, me alegra mucho haberte conocido, contigo las charlas se sienten diferentes.",
+    "🏀 Que tengas un día lindo, lleno de sonrisas y momentos bonitos.",
+    "🏀 Cada vez que hablamos descubro cosas nuevas de ti, y eso me encanta.",
+    "🏀 Ojalá tu día sea tan especial como tú.",
+    "🏀 No sé de triples, pero contigo siempre quiero anotar puntos. ",
   ];
 
   return (
