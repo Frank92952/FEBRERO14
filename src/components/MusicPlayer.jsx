@@ -3,9 +3,9 @@ import YouTube from "react-youtube";
 
 const MusicPlayer = () => {
   const musicList = [
-    { name: "Canción 1 (YouTube)", url: "0-p5EbAsxUM" }, // Solo el ID del video
-    { name: "Canción 2 (MP3)", url: "pCSL48AI_Ms" },
-    { name: "Canción 3 (MP3)", url: "s1SoluK0Imk" },
+    { name: "Canción 1 (YouTube)", url: "JugGmkvhsKQ" }, // Solo el ID del video
+    { name: "Canción 2 (MP3)", url: "HL9VoQ-er_U" },
+    { name: "Canción 3 (MP3)", url: "nRhSPp5CWos" },
   ];
 
   const [currentSong, setCurrentSong] = useState(musicList[0].url);

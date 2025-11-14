@@ -38,7 +38,7 @@ const MainScreen = () => {
         />
       ))}
 
-      <h1 className="main-title">💖 ¡Sabía que me ibas a elegir a mí! 💖</h1>
+      <h1 className="main-title">💖 ¡Sabía que me ibas a decir que si! 💖</h1>
 
       <div className="options-container">
         <button onClick={() => setSelectedOption("music")} className="option-button">

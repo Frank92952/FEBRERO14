@@ -82,7 +82,7 @@ const ValentineQuestion = () => {
       {!answered ? (
         <>
           <h1 className="valentine-title">Leesly Jhamiley, contigo el plan siempre suena bien.</h1>
-          <h1 className="valentine-title">¿Salimos este fin de semana?. SI o NO</h1>
+          <h1 className="valentine-title">¿Confirmamos nuestra cena pendiente? ¿Sí o no?</h1>
           <div 
             ref={buttonContainerRef}
             className="button-container"
